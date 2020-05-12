@@ -16,7 +16,7 @@ func main() {
 	fmt.Println("4. simpleMap")
 	fmt.Println("5. structs")
 	fmt.Println("6. embeddedStruct")
-	fmt.Println("7. ...")
+	fmt.Println("7. anonymousStruct")
 	fmt.Println("8. ...")
 	fmt.Println("9. ...")
 	fmt.Println("10. ...")
@@ -43,7 +43,7 @@ func main() {
 	case input.Text() == "6":
 		embeddedStruct()
 	case input.Text() == "7":
-		maintenancePage()
+		anonymousStruct()
 	case input.Text() == "8":
 		maintenancePage()
 	case input.Text() == "9":
