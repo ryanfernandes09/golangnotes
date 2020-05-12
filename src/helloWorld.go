@@ -15,7 +15,14 @@ func main() {
 	fmt.Println("3. canadianProvincesSlice")
 	fmt.Println("4. simpleMap")
 	fmt.Println("5. structs")
-	fmt.Println("6. Exit")
+	fmt.Println("6. embeddedStruct")
+	fmt.Println("7. ...")
+	fmt.Println("8. ...")
+	fmt.Println("9. ...")
+	fmt.Println("10. ...")
+	fmt.Println("11. ...")
+	fmt.Println("12. ...")
+	fmt.Println("13. Exit")
 	fmt.Printf("Enter your choice: ")
 
 	input := bufio.NewScanner(os.Stdin)
@@ -34,6 +41,20 @@ func main() {
 	case input.Text() == "5":
 		structs()
 	case input.Text() == "6":
+		embeddedStruct()
+	case input.Text() == "7":
+		maintenancePage()
+	case input.Text() == "8":
+		maintenancePage()
+	case input.Text() == "9":
+		maintenancePage()
+	case input.Text() == "10":
+		maintenancePage()
+	case input.Text() == "11":
+		maintenancePage()
+	case input.Text() == "12":
+		maintenancePage()
+	case input.Text() == "13":
 		os.Exit(0)
 	default:
 		fmt.Println("Please enter a valid choice.")
