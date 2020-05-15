@@ -18,7 +18,7 @@ func main() {
 	fmt.Println("6. embeddedStruct")
 	fmt.Println("7. anonymousStruct")
 	fmt.Println("8. interfaceAndReceiver")
-	fmt.Println("9. ...")
+	fmt.Println("9. anonymousFunc")
 	fmt.Println("10. ...")
 	fmt.Println("11. ...")
 	fmt.Println("12. ...")
@@ -47,7 +47,7 @@ func main() {
 	case input.Text() == "8":
 		interfaceAndReceiver()
 	case input.Text() == "9":
-		maintenancePage()
+		anonymousFunc()
 	case input.Text() == "10":
 		maintenancePage()
 	case input.Text() == "11":
