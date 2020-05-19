@@ -21,7 +21,7 @@ func main() {
 	fmt.Println("9. anonymousFunc")
 	fmt.Println("10. returningFunctions")
 	fmt.Println("11. callback")
-	fmt.Println("12. ...")
+	fmt.Println("12. closure")
 	fmt.Println("13. Exit")
 	fmt.Printf("Enter your choice: ")
 
@@ -53,7 +53,7 @@ func main() {
 	case input.Text() == "11":
 		callback()
 	case input.Text() == "12":
-		maintenancePage()
+		closure()
 	case input.Text() == "13":
 		os.Exit(0)
 	default:
