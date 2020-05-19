@@ -3,7 +3,8 @@ package main
 import(
 	"fmt"
 )
-
+//this is a good example to understand that functions
+//are types in go. 
 func closure(){
 
 	a := incrementor()
