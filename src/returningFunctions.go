@@ -1,6 +1,6 @@
 package main
 
-import(
+import (
 	"fmt"
 )
 
@@ -9,15 +9,16 @@ Avoid functional programming practices like this as much as possible
 for code thats easier to understand.
 */
 
-func returningFuncs(){
+func returningFunctions() {
+	fmt.Println(secondaryFunc()())
+}
 
-	fmt.Println(foo()())
+func primaryFunc() int {
+	return 451
+}
 
-	func foo() func{
-		return bar()
-	}
-	
-	func bar() int{
-		return 42
+func secondaryFunc() func() int {
+	return func() int {
+		return primaryFunc()
 	}
 }

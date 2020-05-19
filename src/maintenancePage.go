@@ -1,9 +1,9 @@
 package main
 
-import(
+import (
 	"fmt"
 )
 
-func maintenancePage(){
+func maintenancePage() {
 	fmt.Println("Work in progress...")
 }

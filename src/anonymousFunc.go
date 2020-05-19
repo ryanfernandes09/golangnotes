@@ -1,22 +1,22 @@
 package main
 
-import(
+import (
 	"fmt"
 )
 
-func anonymousFunc(){
+func anonymousFunc() {
 	foo()
 
-	func(){
+	func() {
 		fmt.Println("anonymous func ran")
 	}()
 
-	func(x int){
-		fmt.Println("THe meaning of life:",x)
+	func(x int) {
+		fmt.Println("THe meaning of life:", x)
 	}(42)
 }
 
-func foo(){
+func foo() {
 
 	fmt.Println("Foo ran")
 }

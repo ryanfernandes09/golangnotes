@@ -19,8 +19,8 @@ func main() {
 	fmt.Println("7. anonymousStruct")
 	fmt.Println("8. interfaceAndReceiver")
 	fmt.Println("9. anonymousFunc")
-	fmt.Println("10. returningFuncs")
-	fmt.Println("11. ...")
+	fmt.Println("10. returningFunctions")
+	fmt.Println("11. callback")
 	fmt.Println("12. ...")
 	fmt.Println("13. Exit")
 	fmt.Printf("Enter your choice: ")
@@ -49,9 +49,9 @@ func main() {
 	case input.Text() == "9":
 		anonymousFunc()
 	case input.Text() == "10":
-		returningFuncs()
+		returningFunctions()
 	case input.Text() == "11":
-		maintenancePage()
+		callback()
 	case input.Text() == "12":
 		maintenancePage()
 	case input.Text() == "13":
