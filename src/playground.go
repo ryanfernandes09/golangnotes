@@ -5,16 +5,15 @@ import (
 )
 
 func playground() {
+	fmt.Println(foo3())
+	fmt.Println(bar3())
 
-	p1 := struct {
-		firstName string
-		lastName  string
-		age       int
-	}{
-		firstName: "james",
-		lastName:  "bond",
-		age:       42,
-	}
+}
 
-	fmt.Println("p1: ", p1)
+func foo3() int{
+	return 5
+}
+
+func bar3() (int, string) {
+	return 6, "six"
 }

@@ -22,7 +22,17 @@ func main() {
 	fmt.Println("10. returningFunctions")
 	fmt.Println("11. callback")
 	fmt.Println("12. closure")
-	fmt.Println("13. Exit")
+	fmt.Println("13. ...")
+	fmt.Println("14. ...")
+	fmt.Println("15. ...")
+	fmt.Println("16. ...")
+	fmt.Println("17. ...")
+	fmt.Println("18. ...")
+	fmt.Println("19. ...")
+	fmt.Println("20. ...")
+	fmt.Println("21. ...")
+	fmt.Println("22. ...")
+	fmt.Println("23. Exit")
 	fmt.Printf("Enter your choice: ")
 
 	input := bufio.NewScanner(os.Stdin)
@@ -55,6 +65,26 @@ func main() {
 	case input.Text() == "12":
 		closure()
 	case input.Text() == "13":
+		maintenancePage()
+	case input.Text() == "14":
+		maintenancePage()
+	case input.Text() == "15":
+		maintenancePage()
+	case input.Text() == "16":
+		maintenancePage()
+	case input.Text() == "17":
+		maintenancePage()
+	case input.Text() == "18":
+		maintenancePage()
+	case input.Text() == "19":
+		maintenancePage()
+	case input.Text() == "20":
+		maintenancePage()
+	case input.Text() == "21":
+		maintenancePage()
+	case input.Text() == "22":
+		maintenancePage()
+	case input.Text() == "23":
 		os.Exit(0)
 	default:
 		fmt.Println("Please enter a valid choice.")
