@@ -35,7 +35,7 @@ func info(s shape) {
 	fmt.Printf("\nArea of a %T which is received by function area: %f\n",s,s.area())
 }
 
-func inheritance() {
+func sharingFunctions() {
 
 	s := square{
 		color: "black",
