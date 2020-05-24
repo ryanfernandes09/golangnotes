@@ -6,6 +6,6 @@ import (
 
 func playground() {
 
-	fmt.Println("playground")
+	fmt.Println("Playground")
 
 }
