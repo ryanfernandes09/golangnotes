@@ -10,7 +10,8 @@ type person struct {
 
 func changeme(p1 *person) {
 	fmt.Println("p1 : ", &p1)
-	(*p1).address = "new address"
+	p1.address = "new addr" // (*p1).address and p1.address has the same effect
+	//(*p1).address = "new address"
 }
 
 func pointers() {
