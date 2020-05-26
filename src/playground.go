@@ -6,6 +6,15 @@ import (
 
 func playground() {
 
-	fmt.Println("Playground")
+	x := returner()
+	x()
 
+}
+
+func returner() func() {
+	return printer
+}
+
+func printer() {
+	fmt.Println("in the printer")
 }

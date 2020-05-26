@@ -24,7 +24,7 @@ func main() {
 	fmt.Println("12. closure")
 	fmt.Println("13. deferredFunc")
 	fmt.Println("14. sharingFunctions")
-	fmt.Println("15. ...")
+	fmt.Println("15. pointers")
 	fmt.Println("16. ...")
 	fmt.Println("17. ...")
 	fmt.Println("18. ...")
@@ -69,7 +69,7 @@ func main() {
 	case input.Text() == "14":
 		sharingFunctions()
 	case input.Text() == "15":
-		maintenancePage()
+		pointers()
 	case input.Text() == "16":
 		maintenancePage()
 	case input.Text() == "17":
