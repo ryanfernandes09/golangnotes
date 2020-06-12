@@ -10,7 +10,7 @@ func playground() {
 
 }
 
-func foo3() int{
+func foo3() int {
 	return 5
 }
 
