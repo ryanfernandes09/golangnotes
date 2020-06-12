@@ -5,15 +5,16 @@ import (
 )
 
 func playground() {
-	fmt.Println(foo3())
-	fmt.Println(bar3())
+
+	x := returner()
+	x()
 
 }
 
-func foo3() int {
-	return 5
+func returner() func() {
+	return printer
 }
 
-func bar3() (int, string) {
-	return 6, "six"
+func printer() {
+	fmt.Println("in the printer")
 }

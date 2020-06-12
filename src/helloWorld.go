@@ -22,10 +22,10 @@ func main() {
 	fmt.Println("10. returningFunctions")
 	fmt.Println("11. callback")
 	fmt.Println("12. closure")
-	fmt.Println("13. jsonUnmarshal")
-	fmt.Println("14. ...")
-	fmt.Println("15. ...")
-	fmt.Println("16. ...")
+	fmt.Println("13. deferredFunc")
+	fmt.Println("14. sharingFunctions")
+	fmt.Println("15. pointers")
+	fmt.Println("16. jsonUnmarshal")
 	fmt.Println("17. ...")
 	fmt.Println("18. ...")
 	fmt.Println("19. ...")
@@ -65,13 +65,13 @@ func main() {
 	case input.Text() == "12":
 		closure()
 	case input.Text() == "13":
-		jsonUnmarshal()
+		deferredFunc()
 	case input.Text() == "14":
-		maintenancePage()
+		sharingFunctions()
 	case input.Text() == "15":
-		maintenancePage()
+		pointers()
 	case input.Text() == "16":
-		maintenancePage()
+		jsonUnmarshal()
 	case input.Text() == "17":
 		maintenancePage()
 	case input.Text() == "18":
