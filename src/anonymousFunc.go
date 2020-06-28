@@ -9,7 +9,6 @@ func anonymousFunc() {
 
 	func() {
 		fmt.Println("anonymous func ran")
-		fmt.Println("test vscode git plugin")
 	}()
 
 	func(x int) {
